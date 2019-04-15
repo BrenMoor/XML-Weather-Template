@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,6 +89,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +104,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForecastScreenBars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainScreenBars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blueback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forecastback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clouds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
